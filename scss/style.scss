@@ -64,6 +64,25 @@ h1, h2, h3, h4, h5,
 	color: $primary!important;
 }
 
+.pdf {
+	width: 100%;
+	aspect-ratio: 4 / 3;
+}
+.pdf,
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+h1,
+h3 {
+	text-align: center;
+}
+
+h1 {
+	color: green;
+}
 
 .ftco-navbar-light {
 	background: transparent!important;

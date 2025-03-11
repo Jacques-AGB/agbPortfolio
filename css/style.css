@@ -348,6 +348,12 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2; }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Rend les icônes noires */
+}
+
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
